@@ -17,7 +17,9 @@ print(x)
 ```
 
 here . is known as wildcard expression which can be replaced by any character  
-and * takes as many characters as possible [look example](https://github.com/Dude-901/Google-IT-Automation-with-Python/blob/master/Using%20python%20to%20interact%20with%20operating%20system/repetition%20qualifiers.py)
+and * takes as many characters as possible [look example](https://github.com/Dude-901/Google-IT-Automation-with-Python/blob/master/Using%20python%20to%20interact%20with%20operating%20system/repetition%20qualifiers.py)  
+>`[aaaab]` is same as `[ab]`  
+> `^[0-999999]$` is equivalent to: `^[0-9]$`  
 
 Character |	Description |	Example 
 --------- | ----------- | ---------
@@ -32,3 +34,4 @@ $ |	Ends with |	"world$"
 {} |	Exactly the specified number of occurrences |	"al{2}"	
 \| |	Or |	"AM\|am"	
 () |	Capture and group
+ 
