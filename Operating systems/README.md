@@ -14,9 +14,8 @@
 12. `cp mycoolfile.text C:\Users\tanmay\Desktop\` &#8594; copy the file to desktop (in this case)  
 13. `cp *.jpg C:\Users\tanmay\Desktop\` &#8594; copies all the files with mentioned extension(* takes anything for name with .jpg in this case)  
 14. `cp "my cool folder" C:\Users\tanmay\Desktop\ -Recurse -Verbose` &#8594; copies the specified folder along with all files inside and sub-folders  
-> `-Recurse` &#8594; lists the contents of the directory and if there's any sub-directory, it lists their content too. hence copy all the files.
+> `-Recurse` &#8594; lists the contents of the directory and if there's any sub-directory, it lists their content too. hence copy all the files.  
 > `-Verbose` &#8594; outputs one line for each file being copied showing its status  
-15. 
 
 
 
@@ -45,4 +44,4 @@
 * /proc &#8594; contains info about currently running processes  
 * /usr &#8594; contains user installed softwares  
 * /var &#8594; systems logs and constantly changing files  
-* `.filename` &#8594; used to hide a file/dir  
+* `.filename` &#8594; "." is used to hide a file/dir  
