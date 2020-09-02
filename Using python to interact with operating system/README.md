@@ -26,6 +26,7 @@ Character |	Description |	Example
 . |	Any character (except newline character) |	"he..o"	
 ^ |	Starts with |	"^hello"	
 $ |	Ends with |	"world$"	
+? |	optional |	"[ ]?"	
 \* |	Zero or more occurrences |	"aix*"	
 \+	| One or more occurrences |	"aix+"	
 {} |	Exactly the specified number of occurrences |	"al{2}"	
