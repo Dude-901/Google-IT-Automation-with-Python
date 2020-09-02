@@ -30,5 +30,5 @@ $ |	Ends with |	"world$"
 \* |	Zero or more occurrences |	"aix*"	
 \+	| One or more occurrences |	"aix+"	
 {} |	Exactly the specified number of occurrences |	"al{2}"	
-\| |	Either or |	"falls|stays"	
+\| |	Or |	"AM\|am"	
 () |	Capture and group
