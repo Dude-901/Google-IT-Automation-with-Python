@@ -16,7 +16,9 @@
 14. `cp "my cool folder" C:\Users\tanmay\Desktop\ -Recurse -Verbose` &#8594; copies the specified folder along with all files inside and sub-folders  
 > `-Recurse` &#8594; lists the contents of the directory and if there's any sub-directory, it lists their content too. hence copy all the files.  
 > `-Verbose` &#8594; outputs one line for each file being copied showing its status  
-
+15. `mv \blue_document.txt yellow_document.txt` &#8594; move command, used to rename file.  
+16. `mv .\yellow_document.txt ~\Desktop` or `mv *_document.txt C:\Users\tanmay\Documents` &#8594; move multiple files using wildcard.  
+17. 
 
 
 # commands in Linux:  
@@ -26,15 +28,18 @@
 4. `ls -l /` &#8594; shows additional info about directory and files & folders in them (in the below order)  
 > file permissions | no of links that file has | file owner & group | size | last modification | file/dir name  
 5. `ls -la /` or `ls -l -a /` &#8594; `-a` flag shows all files including hidden ones
-6. `pwd` &#8594; print working dir  
+6. `pwd` &#8594; print working dir(same as windows)  
 7. `cd ../documents` &#8594; navigate around (to documents dir here)  
-8. `cd ~\Desktop` &#8594; go to mentioned directory from anywhere(press tab after pressing first letter to see recommendations from that name)  
+8. `cd ~\Desktop` &#8594; go to mentioned directory from anywhere(press tab after pressing first letter to see recommendations from that name)(same as windows)  
 9. `mkdir "my cool folder"` or `mkdir my\ cool\ folder` &#8594; make a dir (\\ is the escape character here)  
-10. `history` or **ctrl-r** &#8594; presents command history  
-11. `clear` &#8594; clears the output screen  
-12. `cp mycoolfile.text ~/Desktop` &#8594; copy the file to desktop (in this case)  
-13. `cp *.jpg ~/Desktop` &#8594; copies all the files with mentioned extension(* takes anything for name with .jpg in this case)  
-14. `cp -r "my cool folder" ~/Desktop` &#8594; copies the specified folder along with all files inside and sub-folders  
+10. `history` or **ctrl-r** &#8594; presents command history(same as windows)  
+11. `clear` &#8594; clears the output screen(same as windows)  
+12. `cp mycoolfile.text ~/Desktop` &#8594; copy the file to desktop (in this case)(same as windows)  
+13. `cp *.jpg ~/Desktop` &#8594; copies all the files with mentioned extension(* takes anything for name with .jpg in this case)(same as windows)  
+14. `cp -r "my cool folder" ~/Desktop` &#8594; copies the specified folder along with all files inside and sub-folders.(same as windows)  
+15. `mv red_document.txt blue_document.txt` &#8594; rename file(same  as windows)
+16. `mv blue_document.txt ~/Documents` or `mv *_document.txt ~/Desktop` &#8594; move file(same  as windows)  
+
 
 # Tips for Linux  
 ###### root directory =>  
