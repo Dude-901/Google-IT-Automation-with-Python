@@ -18,7 +18,9 @@
 > `-Verbose` &#8594; outputs one line for each file being copied showing its status  
 15. `mv \blue_document.txt yellow_document.txt` &#8594; move command, used to rename file.  
 16. `mv .\yellow_document.txt ~\Desktop` or `mv *_document.txt C:\Users\tanmay\Documents` &#8594; move multiple files using wildcard.  
-17. 
+17. `rm ~/file.extension` &#8594; remove file or dir (permanent del).  
+18. `cat file.extension` &#8594; open text file.  
+
 
 
 # commands in Linux:  
