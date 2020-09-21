@@ -20,6 +20,8 @@
 16. `mv .\yellow_document.txt ~\Desktop` or `mv *_document.txt C:\Users\tanmay\Documents` &#8594; move multiple files using wildcard.  
 17. `rm ~/file.extension` &#8594; remove file or dir (permanent del).  
 18. `cat file.extension` &#8594; open text file.  
+19. `Select-String word file.extension`&#8594; search for word in file.extension.  
+20. `ls 'C:\Program Files\' -Recurse -Filter *.exe` &#8594; look for all the .exe files in the given directory and subdirectories.  
 
 
 
@@ -41,6 +43,7 @@
 14. `cp -r "my cool folder" ~/Desktop` &#8594; copies the specified folder along with all files inside and sub-folders.(same as windows)  
 15. `mv red_document.txt blue_document.txt` &#8594; rename file(same  as windows)
 16. `mv blue_document.txt ~/Documents` or `mv *_document.txt ~/Desktop` &#8594; move file(same  as windows)  
+17. `grep cow *.txt` &#8594; search for the word "cow" in all the files with .txt extension.    
 
 
 # Tips for Linux  
