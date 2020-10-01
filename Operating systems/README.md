@@ -22,6 +22,8 @@
 18. `cat file.extension` &#8594; open text file.  
 19. `Select-String word file.extension`&#8594; search for word in file.extension.  
 20. `ls 'C:\Program Files\' -Recurse -Filter *.exe` &#8594; look for all the .exe files in the given directory and subdirectories.  
+21. `Get-LocalGroup` &#8594; shows all the user groups.
+22. `Get-LocalGroupMember Administrators` &#8594; Lists all the users in the specific groups (administrators in this case).  
 
 
 
@@ -44,6 +46,8 @@
 15. `mv red_document.txt blue_document.txt` &#8594; rename file(same  as windows)
 16. `mv blue_document.txt ~/Documents` or `mv *_document.txt ~/Desktop` &#8594; move file(same  as windows)  
 17. `grep cow *.txt` &#8594; search for the word "cow" in all the files with .txt extension.    
+18. `cat /etc/group` &#8594; See user groups (replace group with 'passwd' to see information about users).  
+19. 
 
 
 # Tips for Linux  
